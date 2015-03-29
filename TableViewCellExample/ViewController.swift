@@ -33,6 +33,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }else{
         return CandyTupleArry.count
         }
+//4
+//            return produceTupleArray.count
+
     }
     
     
@@ -48,6 +51,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //3
 //      var cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
 
+        
+        // display the indexPath
+        println("indexPath.section: \(indexPath.section)    indexPath.row: \(indexPath.row)    indexPath.item \(indexPath.item)")
 
         
         // 2
@@ -59,6 +65,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 let (item, type) = produceTupleArray[indexPath.row]
                 cell.textLabel?.text = item
                 cell.detailTextLabel?.text = type
+            
                 return cell
         }else{
             
@@ -66,8 +73,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
                 cell2.textLabel?.text = CandyTupleArry[indexPath.row].0
                 cell2.detailTextLabel?.text = CandyTupleArry[indexPath.row].1
-                return cell2
+    
+            return cell2
+
         }
+
+
+        
         
     }
     
