@@ -1,3 +1,2 @@
 # TableViewCellExample
-simple example using UITableView Cells
-yes
+A Simple Example Intro to TableViewCells  and IndexPath
