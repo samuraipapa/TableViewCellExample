@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C4556E71AD429500042792E /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4556E61AD429500042792E /* screen.png */; };
 		6C6311291ABB03C300AA8E6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6311281ABB03C300AA8E6A /* AppDelegate.swift */; };
 		6C63112B1ABB03C300AA8E6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C63112A1ABB03C300AA8E6A /* ViewController.swift */; };
 		6C63112E1ABB03C300AA8E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C63112C1ABB03C300AA8E6A /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C4556E61AD429500042792E /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 		6C6311231ABB03C300AA8E6A /* TableViewCellExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCellExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6311271ABB03C300AA8E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C6311281ABB03C300AA8E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		6C6311251ABB03C300AA8E6A /* TableViewCellExample */ = {
 			isa = PBXGroup;
 			children = (
+				6C4556E61AD429500042792E /* screen.png */,
 				6C6311281ABB03C300AA8E6A /* AppDelegate.swift */,
 				6C63112A1ABB03C300AA8E6A /* ViewController.swift */,
 				6C63112C1ABB03C300AA8E6A /* Main.storyboard */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C63112E1ABB03C300AA8E6A /* Main.storyboard in Resources */,
+				6C4556E71AD429500042792E /* screen.png in Resources */,
 				6C6311331ABB03C300AA8E6A /* LaunchScreen.xib in Resources */,
 				6C6311301ABB03C300AA8E6A /* Images.xcassets in Resources */,
 			);
@@ -405,6 +409,7 @@
 				6C6311441ABB03C300AA8E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C6311451ABB03C300AA8E6A /* Build configuration list for PBXNativeTarget "TableViewCellExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				6C6311471ABB03C300AA8E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
